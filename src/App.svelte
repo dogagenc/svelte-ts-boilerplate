@@ -1,13 +1,15 @@
-<style>
+<style lang="scss">
+  $red: #cc1a1a;
+
   main {
     text-align: center;
     padding: 1em;
     max-width: 240px;
     margin: 0 auto;
-  }
 
-  h1 {
-    color: red;
+    h1 {
+      color: $red;
+    }
   }
 </style>
 
@@ -16,10 +18,8 @@
 
   import Component from './Component.svelte';
 
-  let myName = 'doga';
-  let mySurname = 'genc';
   let fullName: string;
-  $: fullName = `${myName} ${mySurname}`;
+  $: fullName = `${name} ${'doga'}`;
 </script>
 
 <main>
