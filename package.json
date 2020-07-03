@@ -10,7 +10,8 @@
     "check:svelte": "svelte-check",
     "build": "npm run check:svelte && npm run check:format && npm run build:prod",
     "format": "prettier --write .",
-    "check:format": "prettier --check ."
+    "check:format": "prettier --check .",
+    "bump": "npm version ${LEVEL:-patch} --force -m 'Version %s'"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^12.0.0",
