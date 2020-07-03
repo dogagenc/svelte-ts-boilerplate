@@ -1,3 +1,4 @@
 public/build
+public/global.css
 rollup.config.js
 svelte.config.js

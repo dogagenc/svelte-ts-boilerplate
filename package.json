@@ -1,6 +1,8 @@
 {
-  "name": "svelte-app",
-  "version": "1.0.0",
+  "name": "svelte-ts-boilerplate",
+  "description": "Svelte boilerplate using TypeScript, Rollup, Prettier with Visual Studio Code settings",
+  "version": "0.0.1",
+  "author": "Doga Genc <dogagenc@gmail.com>",
   "scripts": {
     "build:prod": "rollup -c",
     "dev": "rollup -c -w",

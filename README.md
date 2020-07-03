@@ -1,26 +1,10 @@
-_Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)_
-
----
-
-# svelte app
-
-This is a project template for [Svelte](https://svelte.dev) apps with typescript. It lives at https://github.com/dummdidumm/template.
-
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
-
-```bash
-npx degit dummdidumm/template svelte-typescript-app
-cd svelte-typescript-app
-```
-
-_Note that you will need to have [Node.js](https://nodejs.org) installed._
+# Svelte boilerplate using TypeScript, Rollup, Prettier with Visual Studio Code settings
 
 ## Get started
 
 Install the dependencies...
 
 ```bash
-cd svelte-app
 npm install
 ```
 
@@ -76,38 +60,4 @@ import typescript from '@rollup/plugin-typescript';
     commonjs(),
     typescript(), // <-- added below commonjs
     // ...
-```
-
-## Deploying to the web
-
-### With [now](https://zeit.co/now)
-
-Install `now` if you haven't already:
-
-```bash
-npm install -g now
-```
-
-Then, from within your project folder:
-
-```bash
-cd public
-now deploy --name my-project
-```
-
-As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public my-project.surge.sh
 ```
